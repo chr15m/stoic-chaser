@@ -28,12 +28,12 @@
 
       body * {
         color: #aeaea0;
-        font-size: 1.75em;
+        font-size: 1.5em;
       }
       
       p {
         font-family: alegreyaregular;
-        margin-bottom: 0.5em;
+        margin-bottom: 1.5em;
       }
       
       h1, h2, h3 {

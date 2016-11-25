@@ -17,7 +17,7 @@
         padding: 0px;
         background-color: #333;
       }
-     
+      
       body {
         margin-left: auto;
         margin-right: auto;
@@ -26,14 +26,14 @@
         text-align: justify;
         padding: 0.55em;
       }
-
+      
       body * {
         color: #aeaea0;
         font-size: 1.5em;
       }
-
+      
       * { box-sizing: border-box; }
-
+      
       p {
         font-family: alegreyaregular;
       }
@@ -43,10 +43,19 @@
         margin: 0px;
         padding: 0px;
       }
+      
+      #footer {
+        text-align: center;
+      }
+      
+      a {
+        font-size: 0.75em;
+      }
     </style>
   </head>
   <body>
     <h1>Stoic Chaser</h1>
 <?php echo getenv("content");?>
+    <p id="footer"> ~ <a href="https://github.com/chr15m/stoic-chaser/blob/master/README.md">About</a> ~ </p>
   </body>
 </html>

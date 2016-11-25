@@ -17,27 +17,31 @@
         padding: 0px;
         background-color: #333;
       }
-      
+     
       body {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         max-width: 800px;
         text-align: justify;
+        padding: 0.55em;
       }
 
       body * {
         color: #aeaea0;
         font-size: 1.5em;
       }
-      
+
+      * { box-sizing: border-box; }
+
       p {
         font-family: alegreyaregular;
-        margin-bottom: 1.5em;
       }
       
       h1, h2, h3 {
         font-family: alegreyabold;
+        margin: 0px;
+        padding: 0px;
       }
     </style>
   </head>
